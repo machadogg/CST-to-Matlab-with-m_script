@@ -210,7 +210,6 @@ def define_Sparam(lis, test):
     head = lis[0]
 
     if 'SZmax(1),Zmax(1)' in head:
-        print('yes')
         head = head.replace('SZmax(1),Zmax(1)', 'S_{11}-TE')
     if 'SZmax(1),Zmin(1)' in head:
         head = head.replace('SZmax(1),Zmin(1)', 'S_{12}-TE')
@@ -228,7 +227,7 @@ def define_Sparam(lis, test):
         head = head.replace('SZmin(2),Zmin(2)', 'S_{22}-TM')
     if '/abs,dB' in head:
         head = head.replace('/abs,dB', '')
-    print(head)
+    
     lis[0] = head
     return lis
 
