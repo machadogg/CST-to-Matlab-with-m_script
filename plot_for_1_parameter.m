@@ -1,7 +1,7 @@
 clear;
 clc;
 
-fname = 'exout2.csv'
+fname = 'exout3.csv'
 
 M = csvread(fname,1);
 fid = fopen(fname);
