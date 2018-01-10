@@ -1,18 +1,20 @@
 clear;
 clc;
 
-M = csvread('z2.csv',1);
-fid = fopen('z2.csv');
+fname = 'exout2.csv'
+
+M = csvread(fname,1);
+fid = fopen(fname);
 Ids = textscan(fid,'%s %s %s %s %s %s',1);%Number of elements in the header
 fclose(fid);
 
 
 f = M(:,1);
-s11te = M(:,2);
-s11tm = M(:,4);
-s21te = M(:,6);
+y1 = M(:,2);
+y2 = M(:,4);
+y3 = M(:,6);
 
-p = plot(f,s11te,f,s11tm,f,s21te);
+p = plot(f,y1,f,y2,f,y3);
 
 p(1).LineWidth = 1.5;
 p(1).LineStyle = '-';

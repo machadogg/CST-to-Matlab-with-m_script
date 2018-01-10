@@ -48,123 +48,123 @@ def define_Sparam(lis, test):
 
             if 'SZmin(1),Zmax(1)' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s21-te'
+                    lis[0] = lis[0] + ' f S_{21}-TE'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s21-te'
+                    lis[i] = 'f S_{21}-TE'
                 k += 1
 
             elif 'SZmax(1),Zmax(1)' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s11-te'
+                    lis[0] = lis[0] + ' f S_{11}-TE'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s11-te'
+                    lis[i] = 'f S_{11}-TE'
                 k += 1
 
             elif 'SZmax(1),Zmin(1)' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s12-te'
+                    lis[0] = lis[0] + ' f S_{12}-TE'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s12-te'
+                    lis[i] = 'f S_{12}-te'
                 k += 1
 
             elif 'SZmin(1),Zmin(1)' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s22-te'
+                    lis[0] = lis[0] + ' f S_{22}-TE'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s22-te'
+                    lis[i] = 'f S_{22}-TE'
                 k += 1
 
             elif 'SZmin(2),Zmax(2)' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s21-tm'
+                    lis[0] = lis[0] + ' f S_{21}-TM'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s21-tm'
+                    lis[i] = 'f S_{21}-TM'
                 k += 1
 
             elif 'SZmax(2),Zmax(2)' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s11-tm'
+                    lis[0] = lis[0] + ' f S_{11}-TM'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s11-tm'
+                    lis[i] = 'f S_{11}-TM'
                 k += 1
 
             elif 'SZmax(2),Zmin(2)' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s12-tm'
+                    lis[0] = lis[0] + ' f S_{12}-TM'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s12-tm'
+                    lis[i] = 'f S_{12}-TM'
                 k += 1
 
             elif 'SZmin(2),Zmin(2)' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s22-tm'
+                    lis[0] = lis[0] + ' f S_{22}-TM'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s22-tm'
+                    lis[i] = 'f S_{22}-TM'
                 k += 1
 
             elif 'S1,1' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s11'
+                    lis[0] = lis[0] + ' f S_{11}'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s11'
+                    lis[i] = 'f S_{11}'
                 k += 1
             elif 'S2,1' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s21'
+                    lis[0] = lis[0] + ' f S_{21}'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s21'
+                    lis[i] = 'f S_{21}'
                 k += 1
             elif 'S1,2' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s12'
+                    lis[0] = lis[0] + ' f S_{12}'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s12'
+                    lis[i] = 'f S_{12}'
                 k += 1
             elif 'S2,2' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f s22'
+                    lis[0] = lis[0] + ' f S_{22}'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f s22'
+                    lis[i] = 'f S_{22}'
                 k += 1
             elif 'Z1,1' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f z11'
+                    lis[0] = lis[0] + ' f Z_{11}'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f z11'
+                    lis[i] = 'f Z_{11}'
                 k += 1
             elif 'Z2,1' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f z21'
+                    lis[0] = lis[0] + ' f Z_{21}'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f,z21'
+                    lis[i] = 'f Z_{21}'
                 k += 1
             elif 'Z1,2' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f z12'
+                    lis[0] = lis[0] + ' f Z_{12}'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f z12'
+                    lis[i] = 'f Z_{12}'
                 k += 1
             elif 'Z2,2' in lis[i]:
                 if i > 0:
-                    lis[0] = lis[0] + ' f z22'
+                    lis[0] = lis[0] + ' f Z_{22}'
                     lis[i] = ''
                 else:
-                    lis[i] = 'f z22'
+                    lis[i] = 'f Z_{22}'
                 k += 1
             elif 'F' in lis[i]:  # If it doesn't match the patterns, generates generic name from CST
                 ln = lis[i].split()
