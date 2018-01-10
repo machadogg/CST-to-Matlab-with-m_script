@@ -1,7 +1,7 @@
 clear;
 clc;
 
-fname = 'example5.csv'
+fname = 'file_name.csv'
 
 M = csvread(fname,1);
 fid = fopen(fname);
